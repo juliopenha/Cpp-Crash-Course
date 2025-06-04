@@ -1,0 +1,11 @@
+# Binários compilados
+main
+*.out
+*.bin
+
+# Arquivos de objeto
+*.o
+
+# Diretórios de build
+build/
+bin/
