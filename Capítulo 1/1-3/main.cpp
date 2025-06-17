@@ -4,15 +4,12 @@
 
 #include <cstdio>
 
-int absolute_value(int x)
-{
-  if(x < 0)
-    return x * -1;
+int absolute_value(int x) {
+  if (x < 0) return x * -1;
   return x;
 }
 
-int main()
-{
+int main() {
   int my_num = -5;
   printf("The absolute value of %d is %d.\n", my_num, absolute_value(my_num));
   my_num = -4;
@@ -35,6 +32,6 @@ int main()
   printf("The absolute value of %d is %d.\n", my_num, absolute_value(my_num));
   my_num = 5;
   printf("The absolute value of %d is %d.\n", my_num, absolute_value(my_num));
-  
+
   return 0;
 }
